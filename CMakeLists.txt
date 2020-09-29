@@ -13,10 +13,10 @@ if( _HOST_NAME STREQUAL "zzingo")
     set(BASE_DIR_GLM "C:/opengl/glm-0.9.9.6/glm")
 # my pc
 elseif( _HOST_NAME STREQUAL "happy")	
-    set(BASE_DIR_GLUT "C:/opengl/freeglut-MSVC-3.0.0-2.mp/freeglut")
-    set(BASE_DIR_GLFW3 "C:/opengl/glfw-3.2.1.bin.WIN64/glfw-3.2.1.bin.WIN64")
-    set(BASE_DIR_GLEW "C:/opengl/glew-2.1.0-win32/glew-2.1.0")
-    set(BASE_DIR_GLM "C:/opengl/glm-0.9.9.6/glm")
+    set(BASE_DIR_GLUT "D:/opengl/freeglut-MSVC-3.0.0-2.mp/freeglut")
+    set(BASE_DIR_GLFW3 "D:/opengl/glfw-3.2.1.bin.WIN64/glfw-3.2.1.bin.WIN64")
+    set(BASE_DIR_GLEW "D:/opengl/glew-2.1.0-win32/glew-2.1.0")
+    set(BASE_DIR_GLM "D:/opengl/glm-0.9.9.6/glm")
 endif()
 
 set(SOURCE_FILES    
