@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.1)
 
 project(studypengl LANGUAGES CXX)
 
+cmake_host_system_information(RESULT _HOST_NAME QUERY HOSTNAME)
+message(STATUS "HOSTNAME:${_HOST_NAME}")
+
 # trineedle pc
 if( _HOST_NAME STREQUAL "zzingo")
     set(BASE_DIR_GLUT "C:/opengl/freeglut-MSVC-3.0.0-2.mp/freeglut")
